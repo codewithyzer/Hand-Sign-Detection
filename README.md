@@ -13,10 +13,12 @@ Make sure to:
   cd path/to/Hand-Sign-Detection
 
 - Create a virtual environment named env
-  `py -3.10 -m venv env`
+
+- In your terminal run `py -3.10 -m venv env`
 
 - Activate virtual environment (you should see "(env)" at the start if succesfully activated)
-  `env\Scripts\Activate`
+
+- in your terminal run `env\Scripts\Activate`
 
 - select you created env folder as your interpreter (`OPTIONAL`: if env didn't get automatically selected)
 
@@ -27,7 +29,7 @@ Make sure to:
 
 ## 4. Run the data collection program
 
-- in data_collection.py change "save_folder" variable depending on the letter you want collect images from
+- in data_collection.py, change "save_folder" variable depending on the letter you want collect images from
   `save_folder = "data/<letter>"` make sure letter is on uppercase like `save_folder = "data/A"`
 
 - run data_collection program in vscode terminal
@@ -35,6 +37,8 @@ Make sure to:
 
 - capture picture
   `hold "s" key` to capture on your keyboard and save your images
+
+- save atleast 300 to 400 images
 
 - exit the program
   `press "q" key`
