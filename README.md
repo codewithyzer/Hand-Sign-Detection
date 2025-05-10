@@ -12,18 +12,18 @@ Make sure to:
 - cd into project folder
   cd path/to/Hand-Sign-Detection
 
-- Create a virtual environment named `env`
-  py -3.10 -m venv env
+- Create a virtual environment named env
+  `py -3.10 -m venv env`
 
-- Activate virtual environment (you should see `(env)` at the start if succesfully activated)
-  env\Scripts\Activate
+- Activate virtual environment (you should see "(env)" at the start if succesfully activated)
+  `env\Scripts\Activate`
 
 - select you created env folder as your interpreter (`OPTIONAL`: if env didn't get automatically selected)
 
 ## 3. Install Project Dependencies
 
 - in your vscode terminal
-  pip install -r requirements.txt
+  `pip install -r requirements.txt`
 
 ## 4. Run the data collection program
 
@@ -31,13 +31,13 @@ Make sure to:
   `save_folder = "data/<letter>"` make sure letter is on uppercase like `save_folder = "data/A"`
 
 - run data_collection program in vscode terminal
-  python data_collection.py
+  `python data_collection.py`
 
 - capture picture
-  hold "s" key to capture on your keyboard and save your images
+  `hold "s" key` to capture on your keyboard and save your images
 
 - exit the program
-  press "q" key
+  `press "q" key`
 
 ## 5. Train a model
 
@@ -58,8 +58,8 @@ Make sure to:
 ## 6. Import model
 
 - extract the downloaded model
-  find keras.model.h5 and labels.txt in the extracted file
-  move keras.model.h5 and labels.txt into `Hand Sign Detection\model`
+  find `keras.model.h5` and `labels.txt` in the extracted file
+  move `keras.model.h5` and `labels.txt` into `Hand Sign Detection\model`
 
 ## 5. Run the application model
 
