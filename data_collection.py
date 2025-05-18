@@ -6,7 +6,7 @@ from cvzone.HandTrackingModule import HandDetector
 capture = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 padding = 30
-save_folder = "data/F"
+save_folder = "data/U"
 img_size = 224
 count = 0
 
